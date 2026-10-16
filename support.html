@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scan QR Code Master — Support</title>
+<style>
+  :root { --paper:#F4F4F6; --card:#fff; --ink:#111114; --soft:#6E6E76; --line:#E4E4E9; --blue:#1A62C6; --blue-deep:#0B47A1; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB",sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:22px; padding:28px 26px; margin:18px 0;
+          box-shadow:0 6px 18px rgba(17,17,20,.05); }
+  .logo { width:64px; height:64px; border-radius:16px; display:grid; place-items:center; color:#fff; font-size:30px;
+          background:linear-gradient(135deg,var(--blue),var(--blue-deep)); }
+  h1 { font-size:30px; margin:14px 0 6px; }
+  h2 { font-size:19px; margin:28px 0 8px; }
+  h3 { font-size:16px; margin:22px 0 4px; }
+  .meta { color:var(--soft); font-size:13.5px; }
+  ul { padding-left:20px }
+  a { color:var(--blue) }
+  .lang { display:flex; gap:8px; margin:14px 0 0; flex-wrap:wrap }
+  .lang a { background:var(--blue); color:#fff; text-decoration:none; padding:6px 14px; border-radius:999px;
+            font-size:13px; font-weight:600 }
+  footer { color:var(--soft); font-size:13px; text-align:center; margin-top:30px }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">▣</div>
+  <h1>Support — Scan QR Code Master</h1>
+  <p class="meta">Applies to the iOS app “Scan QR Code Master” (扫码大师) · Contact: <a href="mailto:peill@me.com">peill@me.com</a></p>
+  <div class="lang"><a href="#en">English</a><a href="#zh-hans">简体中文</a><a href="#zh-hant">繁體中文</a></div>
+
+  <div class="card" id="en">
+    <h2>English</h2>
+
+    <h3>Nothing happens when I point the camera at a code</h3>
+    <p>Check that iOS Settings → Scan QR Code Master → Camera is on. Then hold the phone 15–25 cm from the code,
+    fill about a third of the frame with it, and give the lens a moment to focus. Very small or far-away codes are
+    what <em>Auto Zoom</em> is for — keep it on in Settings, or pinch to zoom manually.</p>
+
+    <h3>It is dark / the code is on a screen</h3>
+    <p>Tap the flashlight button on the left of the control row. For codes on a screen, turn the screen brightness
+    up and tilt the phone slightly to avoid reflections.</p>
+
+    <h3>The flashlight button is greyed out</h3>
+    <p>That device's camera does not report a torch (some front cameras and the simulator have none).</p>
+
+    <h3>Why does scanning sometimes feel slow?</h3>
+    <p>Auto Scan reads a code as soon as it is sharp enough to decode reliably; a blurry frame is simply skipped
+    rather than mis-read. Steady the phone for the last few centimetres.</p>
+
+    <h3>Can I scan a code inside a screenshot or photo?</h3>
+    <p>Yes — tap <em>Photo</em>, choose the image, and the app decodes it on device with Vision.</p>
+
+    <h3>How do I keep a scan?</h3>
+    <p>Everything you scan or create is saved automatically to <em>History</em> on the device. Open an entry to
+    copy, share, favourite or delete it, or export the whole history as CSV from the History menu.</p>
+
+    <h3>Creating codes</h3>
+    <p>Open <em>Create</em>, pick a format (URL, text, Wi-Fi, contact, coupon and many more), fill in the fields
+    and tap Generate. You can share the image, save it to Photos, or copy the content.</p>
+
+    <h3>What are the free-plan limits?</h3>
+    <p>3 scans and 3 generated codes per day. Premium removes both limits and all advertising. Manage or cancel a
+    subscription in iOS Settings → your Apple ID → Subscriptions.</p>
+
+    <h3>Does the app work offline?</h3>
+    <p>Yes. Scanning, creating, history and Safe Browsing all work in airplane mode; only the free plan's ad banner
+    needs a connection.</p>
+
+    <h3>Is my data uploaded?</h3>
+    <p>No. See the <a href="privacy.html">Privacy Policy</a> — camera frames, history and generated codes stay on
+    your iPhone. The only network traffic is the free plan's ad request, which never contains your scans.</p>
+
+    <h3>Something else</h3>
+    <p>Email <a href="mailto:peill@me.com">peill@me.com</a> with your iOS version, device model and, if possible,
+    the content of the code that misbehaved.</p>
+  </div>
+
+  <div class="card" id="zh-hans">
+    <h2>简体中文</h2>
+
+    <h3>对准条码却没有任何反应</h3>
+    <p>请检查 iOS 设置 → 扫码大师 → 相机 是否已开启。然后把手机放在距条码 15–25 厘米处，让条码大约占画面三分之一，
+    并给镜头一点对焦时间。远处或很小的条码正是「自动变焦」的用途——可在设置中保持开启，也可以双指手动放大。</p>
+
+    <h3>环境太暗 / 条码在屏幕上</h3>
+    <p>点按控制栏最左侧的手电筒按钮。若是屏幕上的条码，请调高屏幕亮度并稍微倾斜手机以避免反光。</p>
+
+    <h3>手电筒按钮是灰的</h3>
+    <p>该设备的相机没有上报闪光灯（部分前置摄像头与模拟器不支持）。</p>
+
+    <h3>为什么有时扫描感觉变慢了？</h3>
+    <p>自动扫描只在画面足够清晰、能可靠解码时才识别；模糊的画面会被跳过而不是误读。最后几厘米请拿稳手机。</p>
+
+    <h3>能扫描截图或照片里的条码吗？</h3>
+    <p>可以。点按「相册」，选择图片，App 会用 Vision 在本机完成解码。</p>
+
+    <h3>如何保存扫描结果？</h3>
+    <p>扫描或生成的内容都会自动保存在本机的「历史」中。打开某条即可复制、分享、收藏或删除，
+    也可以在历史菜单里把全部记录导出为 CSV。</p>
+
+    <h3>生成条码</h3>
+    <p>打开「生成」，选择格式（网址、文本、Wi-Fi、联系人、优惠券等），填写字段后点按生成。
+    你可以分享图片、存到相册，或复制内容。</p>
+
+    <h3>免费版有什么限制？</h3>
+    <p>每天 3 次扫描、3 个生成。高级版取消这两项限制并去除全部广告。订阅可在
+    iOS 设置 → 你的 Apple ID → 订阅 中管理或取消。</p>
+
+    <h3>离线能用吗？</h3>
+    <p>可以。扫描、生成、历史记录与安全浏览在飞行模式下都能正常使用，只有免费版的广告横幅需要联网。</p>
+
+    <h3>我的数据会被上传吗？</h3>
+    <p>不会。详见<a href="privacy.html">隐私政策</a>：相机画面、历史记录与生成的条码都留在你的 iPhone 上。
+    唯一的网络请求是免费版的广告请求，其中不包含你的扫描内容。</p>
+
+    <h3>其他问题</h3>
+    <p>请发送邮件至 <a href="mailto:peill@me.com">peill@me.com</a>，并附上系统版本、机型，
+    以及（如可能）出问题的条码内容。</p>
+  </div>
+
+  <div class="card" id="zh-hant">
+    <h2>繁體中文</h2>
+
+    <h3>對準條碼卻沒有任何反應</h3>
+    <p>請檢查 iOS 設定 → 掃碼大師 → 相機 是否已開啟。接著把手機放在距條碼 15–25 公分處，讓條碼大約佔畫面三分之一，
+    並給鏡頭一點對焦時間。遠處或很小的條碼正是「自動變焦」的用途——可在設定中保持開啟，也可以雙指手動放大。</p>
+
+    <h3>環境太暗 / 條碼在螢幕上</h3>
+    <p>點按控制列最左側的手電筒按鈕。若是螢幕上的條碼，請調高螢幕亮度並稍微傾斜手機以避免反光。</p>
+
+    <h3>手電筒按鈕是灰的</h3>
+    <p>該裝置的相機沒有回報閃光燈（部分前置鏡頭與模擬器不支援）。</p>
+
+    <h3>為什麼有時掃描感覺變慢了？</h3>
+    <p>自動掃描只在畫面足夠清晰、能可靠解碼時才辨識；模糊的畫面會被跳過而不是誤讀。最後幾公分請拿穩手機。</p>
+
+    <h3>能掃描截圖或照片裡的條碼嗎？</h3>
+    <p>可以。點按「相簿」，選擇圖片，App 會用 Vision 在本機完成解碼。</p>
+
+    <h3>如何保存掃描結果？</h3>
+    <p>掃描或產生的內容都會自動保存在本機的「歷史」中。開啟某筆即可複製、分享、收藏或刪除，
+    也可以在歷史選單裡把全部記錄匯出為 CSV。</p>
+
+    <h3>產生條碼</h3>
+    <p>開啟「產生」，選擇格式（網址、文字、Wi-Fi、聯絡人、優惠券等），填寫欄位後點按產生。
+    你可以分享圖片、存到相簿，或複製內容。</p>
+
+    <h3>免費版有什麼限制？</h3>
+    <p>每天 3 次掃描、3 個產生。高級版取消這兩項限制並移除全部廣告。訂閱可在
+    iOS 設定 → 你的 Apple ID → 訂閱 中管理或取消。</p>
+
+    <h3>離線能用嗎？</h3>
+    <p>可以。掃描、產生、歷史記錄與安全瀏覽在飛航模式下都能正常使用，只有免費版的廣告橫幅需要連線。</p>
+
+    <h3>我的資料會被上傳嗎？</h3>
+    <p>不會。詳見<a href="privacy.html">隱私政策</a>：相機畫面、歷史記錄與產生的條碼都留在你的 iPhone 上。
+    唯一的網路請求是免費版的廣告請求，其中不包含你的掃描內容。</p>
+
+    <h3>其他問題</h3>
+    <p>請寄送電子郵件至 <a href="mailto:peill@me.com">peill@me.com</a>，並附上系統版本、機型，
+    以及（如可能）出問題的條碼內容。</p>
+  </div>
+
+  <footer>Scan QR Code Master · 扫码大师 · <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></footer>
+</div>
+</body>
+</html>
